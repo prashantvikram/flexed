@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="flexed.css">
+</head>
+<body>
+    <!-- define a container row div -->
+    <div class="row">
+
+        <!-- define column divs within -->
+        <!-- assign class names as an underscore followed by a number that indicates
+             how many parts out of 100 it would occupy within the row -->
+        <div class="_10">10</div> <!-- 10 parts -->
+        <div class="_90">90</div> <!-- 90 parts -->
+    </div>
+    <div class="row">
+        <div class="_20">20</div> <!-- 20 parts -->
+        <div class="_80">80</div> <!-- 80 parts -->
+    </div>
+    <div class="row">
+        <div class="_30">30</div> <!-- 30 parts -->
+        <div class="_70">70</div> <!-- 70 parts -->
+    </div>
+    <div class="row">
+        <div class="_40">40</div> <!-- 40 parts -->
+        <div class="_60">60</div> <!-- 60 parts -->
+    </div>
+    <div class="row">
+        <div class="_50">50</div> <!-- 50 parts -->
+        <div class="_50">50</div> <!-- 50 parts -->
+    </div>
+    <div class="row">
+        <div class="_55">55</div> <!-- 55 parts -->
+        <div class="_45">45</div> <!-- 45 parts -->
+    </div>
+    <div class="row">
+        <div class="_63">63</div> <!-- 63 parts -->
+        <div class="_37">37</div> <!-- 37 parts -->
+    </div>
+    <h1>nested</h1>
+    <div class="row">
+        <div class="_80"> <!-- 80 parts -->
+            <div class="_40"> <!-- 40 parts -->
+                <div class="_20"> <!-- 20 parts -->
+                    20
+                </div>
+                <div class="_20"> <!-- 20 parts -->
+                    20
+                </div>
+            </div>
+            <div class="_40"> <!-- 40 parts -->
+                40
+            </div>
+        </div>
+        <div class="_20">20</div> <!-- 20 parts -->
+    </div>
+    <script src="flexed.js"></script>
+</body>
+</html>
