@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-bottom: 10px; /*cosmetic css*/
+}
+
+/*=================================
+COSMETIC CSS - can be discarded
+=================================*/
+div[class*='_']{
+  background-color: #EFEFEF;
+  border: 1px solid gainsboro;
+  padding: 20px;
+}
